@@ -101,7 +101,7 @@ class Solution(object):
         even = [False] * N
         odd[N-1] = even[N-1] = True
 
-        for i in xrange(N-2, -1, -1):
+        for i in range(N-2, -1, -1):
             if oddnext[i] is not None:
                 odd[i] = even[oddnext[i]]
             if evennext[i] is not None:
