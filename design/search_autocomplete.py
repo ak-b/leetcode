@@ -61,3 +61,44 @@ Please use double-quote instead of single-quote when you write test cases even f
 Please remember to RESET your class variables declared in class AutocompleteSystem, as static/class variables 
 are persisted across multiple test cases. Please see here for more details.
 '''
+
+#SOLUTION
+
+'''
+Approach #1 : Brute Force
+Approach #2 : Using One-Level Indexing
+Approach #3 : Using Trie
+Approach 3: Using Trie
+A Trie is a special data structure used to store strings that can be visualized like a tree. 
+It consists of nodes and edges. Each node consists of at max 26 children and edges connect each parent node to its children. 
+These 26 pointers are nothing but pointers for each of the 26 letters of the English alphabet A separate edge is maintained for every edge.
+'''
+
+class AutocompleteSystem:
+
+    def __init__(self, sentences: List[str], times: List[int]):
+        
+        self.user_input = ''
+        self.matches = []
+        self.counts = {sentence: count for sentence, count in zip(sentences, times)}
+
+    def input(self, c: str) -> List[str]:
+        if c == '#':
+            if self.user_input not in self.counts:
+                self.counts[self.user_input] = 0
+            self.counts[self.user_input] += 1
+            self.user_input = ''
+            self.matches = []
+            return []
+            
+        if not self.user_input:
+            self.matches = [(-count, sentence) for sentence, count in self.counts.items() if sentence[0] == c]
+            self.matches.sort()
+            self.matches = [sentence for _, sentence in self.matches]
+        
+        else:
+            i = len(self.user_input)
+            self.matches = [match for match in self.matches if len(match) > i and match[i] == c]
+        
+        self.user_input += c
+        return self.matches[:3]
