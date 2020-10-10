@@ -37,9 +37,9 @@ class TreeNode(object):
 The preorder DFS traverse follows recursively the order of
 root -> left subtree -> right subtree.
 '''
-# Serialization 
+# Deserialization 
 class Codec:
-
+    
     def serialize(self, root):
         """ Encodes a tree to a single string.
         :type root: TreeNode
@@ -57,9 +57,6 @@ class Codec:
             return string
         
         return rserialize(root, '')
-
-# Deserialization 
-class Codec:
 
     def deserialize(self, data):
         """Decodes your encoded data to tree.
@@ -81,7 +78,6 @@ class Codec:
         data_list = data.split(',')
         root = rdeserialize(data_list)
         return root
-  
 '''
 Complexity Analysis
 
