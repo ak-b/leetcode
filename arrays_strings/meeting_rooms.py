@@ -13,7 +13,7 @@ NOTE: input types have been changed on April 15, 2019. Please reset to default c
 '''
 #Approach 1: Priority Queues
 '''
-Time Complexity: O(N\log N)O(NlogN).
+Time Complexity: O(NlogN).
 
 There are two major portions that take up time here. One is sorting of the array that takes O(NlogN) considering that the array consists of N elements.
 Then we have the min-heap. In t)he worst case, all N meetings will collide with each other. In any case we have NN add operations on the heap.
@@ -54,7 +54,7 @@ class Solution:
 #Approach 2: Chronological Ordering
 '''
 Time Complexity: O(NlogN) because all we are doing is sorting the two arrays for start timings and end timings individually and 
-each of them would contain NN elements considering there are NN intervals.
+each of them would contain NN elements considering there are N intervals.
 
 Space Complexity:O(N) because we create two separate arrays of size NN, one for recording the start times and one for the end times.
 '''
