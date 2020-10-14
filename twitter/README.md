@@ -49,4 +49,5 @@ List of QUESTIONS on LEETCODE tagged with ***Twitter***
 + GMAIL design architecture
 + Lookup a Trie Data Structure
 + Design a rate limiter
++ Design a Event Count Service to return the count of all events and allows user to Query and do Rollups based on certain granularity
 
