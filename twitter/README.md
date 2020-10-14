@@ -8,7 +8,7 @@ To help with preparation, revision and clarity on the kind of questions twitter 
 + Heap
 + Tuples
 
-***Dynamic Programmig***
+**Dynamic Programmig**
 DP is a hot topic and one that is commonly adored by many interviewers.Topics of memoization and tabulation get special interest
 
 List of QUESTIONS on LEETCODE tagged with ***Twitter***
