@@ -12,3 +12,22 @@ The syllabus for GOOGLE interviews is very clear and simple:
 10) Good understanding of basic discrete math, computer architecture, basic math.
 11) Coursera courses and assignments give a lot of what you need to know.
 12) Note that all the above except the first 2 are useful in "real life" programming too!
+
+
+From glassdoor ~~~
+
+Interview 1:
+Graph related question and super recursion
+
+Interview 2:
+Design discussion involving a distributed system with writes/reads going on at different sites in parallel.
+
+Interview 3:
+Array and Tree related questions
+
+Interview 4:
+Designing a simple class to do something. Not hard, but not easy either. You need to know basic data structures very well to consider different designs and trade-offs.
+
+Interview 5:
+Dynamic programming,
+Computer architecture and low level perf. enhancement question which requires knowledge of Trees, binary search, etc.
