@@ -31,3 +31,6 @@ Designing a simple class to do something. Not hard, but not easy either. You nee
 Interview 5:
 Dynamic programming,
 Computer architecture and low level perf. enhancement question which requires knowledge of Trees, binary search, etc.
+
+Some more questions...
+How would you design a successful cloud computing offering?  
