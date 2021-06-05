@@ -27,3 +27,4 @@ https://www.youtube.com/watch?v=vg5onp8TU6Q&list=PLhr1KZpdzukdRxs_pGJm-qSy5LayL6
 
 ### CAP theorem
 
+https://www.naukri.com/learning/articles/top-aws-interview-questions-answers/
