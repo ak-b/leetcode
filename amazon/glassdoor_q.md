@@ -25,5 +25,5 @@ https://www.youtube.com/watch?v=vg5onp8TU6Q&list=PLhr1KZpdzukdRxs_pGJm-qSy5LayL6
 
 ### Differences between SQL and No Relational DDBB?
 
-
+### CAP theorem
 
